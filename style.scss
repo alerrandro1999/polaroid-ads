@@ -1,0 +1,38 @@
+$color: #ffffff;
+$background:#343434;
+
+body {
+  background-color: $background;
+  margin: 0;
+}
+
+.polaroid { 
+  border: 1rem solid $color;
+  border-bottom: 5rem solid $color;
+  width: 30vw;
+  border-radius:5px;
+  min-width: 18rem;
+  height: 28vw;
+  min-height: 17rem;
+  margin: 4rem auto;
+  text-align: center;
+  position: relative;
+  
+  &__image {
+    max-width: 100%;
+    margin: 0;
+  }
+  &__foto {
+    font-family: "Poiret one", cursive;
+    padding: 0.5rem;
+    position:relative;
+    font-weight:600;
+    top:11px;
+  }
+}
+h1{
+  font-family: "Poiret one", cursive;
+  text-align:center;
+  color:#fff;
+  
+}
