@@ -1,0 +1,43 @@
+body {
+  background-color: #343434;
+  margin: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+
+.polaroid {
+  border: 1rem solid #ffffff;
+  border-bottom: 5rem solid #ffffff;
+  width: 10vw;
+  border-radius: 5px;
+  min-width: 18rem;
+  height: 18vw;
+  min-height: 17rem;
+  text-align: center;
+}
+.polaroid__image {
+  width: 10vw;
+  min-width: 18rem;
+  height: 18vw;
+  min-height: 17rem;
+  object-fit: cover;
+}
+.polaroid__foto {
+  font-family: "Poiret one", cursive;
+  padding: 0.5rem;
+  position: relative;
+  font-weight: 600;
+  top: 11px;
+}
+
+h1 {
+  font-family: "Poiret one", cursive;
+  text-align: center;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
