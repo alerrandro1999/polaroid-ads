@@ -11,7 +11,9 @@
 </head>
 
 <body>
-    
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
     <h1>Bem vindo ao mural de polaroids da turma de ADS</h1>
     <section class="container">
         <?php
@@ -20,7 +22,7 @@
         while ($arquivo = $diretorio->read()) {
             if ($arquivo != '.' && $arquivo != '..') {
                 echo '<div class="polaroid">
-                        <img src="'.$pasta.$arquivo.'"
+                        <img src="' . $pasta . $arquivo . '"
                             class="polaroid__image" />
                         <span class="polaroid__foto">Dog 1</span>
                     </div>';
