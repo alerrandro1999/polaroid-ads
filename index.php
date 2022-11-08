@@ -22,6 +22,9 @@
         while ($arquivo = $diretorio->read()) {
             if ($arquivo != '.' && $arquivo != '..') {
                 echo '<div class="polaroid">
+                        <div class="overlay">
+                        <a href="' . $pasta . $arquivo . '" download><img class="icons" src="icons/download.svg"></a>
+                        </div>
                         <img src="' . $pasta . $arquivo . '"
                             class="polaroid__image" />
                         <span class="polaroid__foto">ExpoFadesa</span>
