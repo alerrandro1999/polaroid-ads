@@ -24,7 +24,7 @@
                 echo '<div class="polaroid">
                         <img src="' . $pasta . $arquivo . '"
                             class="polaroid__image" />
-                        <span class="polaroid__foto">Dog 1</span>
+                        <span class="polaroid__foto">ExpoFadesa</span>
                     </div>';
             }
         }
