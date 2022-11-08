@@ -1,5 +1,5 @@
 body {
-  background-color: #343434;
+  background-color: #1c1624;
   margin: 0;
 }
 
@@ -20,6 +20,7 @@ body {
   height: 18vw;
   min-height: 17rem;
   text-align: center;
+  position: relative;
 }
 .polaroid__image {
   width: 10vw;
@@ -40,7 +41,32 @@ h1 {
   font-family: "Poiret one", cursive;
   text-align: center;
   color: #fff;
-}/*# sourceMappingURL=style.css.map */
+  text-shadow: 0 0 3vw #fff;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	min-height: 17rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.overlay:hover{
+	background-color: rgb(0, 0, 0, 0.8);
+	transition: 1s;
+}
+
+.icons{
+	display: none;
+}
+
+.overlay:hover .icons{
+	display: block;
+	width: 40px;
+	fill: #fff;
+}
 
 #stars {
 	width: 2px;
