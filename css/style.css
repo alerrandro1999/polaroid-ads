@@ -1,6 +1,31 @@
+/* :root{
+	--tamanho: 7500px;
+}
+.scroll-magico{
+	animation: up ease-in-out  10s infinite;
+}
+
+@keyframes up {
+	0%{
+		transform: translateY(7000px);
+	}
+
+	100%{
+		transform: translateY(600px);
+	}
+} */
 body {
   background-color: #1c1624;
   margin: 0;
+}
+
+.botao-download{
+	margin-top: 15px;
+	display: block;
+	padding: 5px;
+	text-decoration: none;
+	background-color: #1c1624;
+	color: #fff;
 }
 
 .container{
@@ -42,30 +67,6 @@ h1 {
   text-align: center;
   color: #fff;
   text-shadow: 0 0 3vw #fff;
-}
-
-.overlay{
-	position: absolute;
-	width: 100%;
-	min-height: 17rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.overlay:hover{
-	background-color: rgb(0, 0, 0, 0.8);
-	transition: 1s;
-}
-
-.icons{
-	display: none;
-}
-
-.overlay:hover .icons{
-	display: block;
-	width: 40px;
-	fill: #fff;
 }
 
 #stars {
